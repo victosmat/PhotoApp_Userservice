@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "316321015695",
+    "project_id": "photo-app-notification",
+    "storage_bucket": "photo-app-notification.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:316321015695:android:b9aa994747f7271ec84dfa",
+        "android_client_info": {
+          "package_name": "com.example.photo_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "316321015695-egj7gdlskn1ih4uusq3kgu1pqhf3lcdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLaloouysGt5wbvdOzlwZKgTuIEg36VYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "316321015695-egj7gdlskn1ih4uusq3kgu1pqhf3lcdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

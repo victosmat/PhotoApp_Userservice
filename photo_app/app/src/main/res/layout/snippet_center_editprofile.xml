@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="55dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        >
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Full Name"
+                android:id="@+id/fullname"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Address"
+                android:id="@+id/address"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Username"
+                android:id="@+id/username"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:id="@+id/password"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+<!--        <androidx.appcompat.widget.AppCompatButton-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="25dp"-->
+<!--            android:layout_marginTop="25dp"-->
+<!--            android:text="Confirm"-->
+<!--            android:id="@+id/confirm_button"-->
+<!--            android:padding="12dp"-->
+<!--            android:background="@drawable/white_rounded_button"/>-->
+
+
+    </LinearLayout>
+
+    <!--    <ProgressBar-->
+    <!--        android:layout_width="200dp"-->
+    <!--        android:layout_height="200dp"-->
+    <!--        android:id="@+id/progressBar"-->
+    <!--        android:layout_centerInParent="true"/>-->
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Please wait..."-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="20sp"-->
+    <!--        android:layout_alignBottom="@+id/progressBar"-->
+    <!--        android:layout_alignRight="@+id/progressBar"-->
+    <!--        android:layout_alignLeft="@+id/progressBar"-->
+    <!--        android:id="@+id/loadingPleaseWait"/>-->
+
+</RelativeLayout>
+
+
+    <!--<merge xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--       xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    >-->
+
+<!--&lt;!&ndash;    <ScrollView&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:layout_height="match_parent">&ndash;&gt;-->
+
+<!--&lt;!&ndash;        <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:background="@color/white"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:padding="20dp">&ndash;&gt;-->
+<!--&lt;!&ndash;            &ndash;&gt;-->
+<!--&lt;!&ndash;            &ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            <de.hdodenhof.circleimageview.CircleImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="120dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="120dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/profile_photo"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="20dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:civ_border_color="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                app:civ_border_width="2dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_centerHorizontal="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Change Photo"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/changeProfilePhoto"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/profile_photo"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="@color/link_blue"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="16sp"/>&ndash;&gt;-->
+
+
+
+<!--&lt;!&ndash;            &lt;!&ndash; username section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/changeProfilePhoto"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="80dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout1">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_username"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/username"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="username"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            &lt;!&ndash; display_name section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/relLayout1"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="15dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_display_name"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/display_name"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="display name"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            &lt;!&ndash; website section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/relLayout2"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout3"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="15dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_web"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/website"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="Website"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            &lt;!&ndash; description section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/relLayout3"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout4"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="15dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_description"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/description"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="Description"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="25sp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="PRIVATE INFORMATION"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@id/relLayout4"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_centerHorizontal="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/textPrivateInfo"/>&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;            &lt;!&ndash; email section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/textPrivateInfo"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout5"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="15dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_email"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/email"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="Email"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            &lt;!&ndash; phone number section &ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <RelativeLayout&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="50dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_below="@+id/relLayout5"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:background="@drawable/grey_border_bottom"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/relLayout6"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_marginTop="15dp">&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="35dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:src="@drawable/ic_phone"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;                <EditText&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_width="match_parent"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:id="@+id/phoneNumber"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:layout_marginStart="40dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:background="@null"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:inputType="textNoSuggestions"&ndash;&gt;-->
+<!--&lt;!&ndash;                    android:hint="Phone Number"/>&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </RelativeLayout>&ndash;&gt;-->
+
+<!--        </RelativeLayout>-->
+
+
+<!--    </ScrollView>-->
+<!--    </merge>-->
